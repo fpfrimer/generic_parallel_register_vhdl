@@ -14,7 +14,7 @@ entity reg is
 		clk	:	in	std_logic;	-- Clock signal
 		rst	:	in	std_logic;	-- Reset signal
 		data	:	in	std_logic_vector(n - 1 downto 0);	-- input data
-		q	:	out	std_logic_vector(n - 1 downto 0)		-- output data
+		q	:	out	std_logic_vector(n - 1 downto 0)	-- output data
 	);
 end reg;
 
