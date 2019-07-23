@@ -8,13 +8,13 @@ use ieee.std_logic_1164.all;
 
 entity reg is
 	generic(
-		n		:	integer := 8		-- Data width
+		n	:	integer := 8		-- Data width
 	);
 	port(
-		clk	:	in		std_logic;	-- Clock signal
-		rst	:	in		std_logic;	-- Reset signal
-		data	:	in		std_logic_vector(n - 1 downto 0);	-- input data
-		q		:	out	std_logic_vector(n - 1 downto 0)		-- output data
+		clk	:	in	std_logic;	-- Clock signal
+		rst	:	in	std_logic;	-- Reset signal
+		data	:	in	std_logic_vector(n - 1 downto 0);	-- input data
+		q	:	out	std_logic_vector(n - 1 downto 0)		-- output data
 	);
 end reg;
 
