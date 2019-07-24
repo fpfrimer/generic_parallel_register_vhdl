@@ -1,6 +1,8 @@
--- Generic Parallel Register
--- Author: Gordon Freeman
--- Black Mesa all rights reserved
+-- reg.vhd
+-- ----------------------------------------------------
+-- Generic parallel register
+-- ----------------------------------------------------
+-- (c) Black Mesa / Gordon Freeman - halflife.com
 -- Novenber 8, 1998
 
 library ieee;
