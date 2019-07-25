@@ -10,7 +10,7 @@ use ieee.std_logic_1164.all;
 
 entity reg is
 	generic(
-		n	:	integer := 8		-- Data width
+		n	:	integer := 8								-- Data width
 	);
 	port(
 		clk		:	in	std_logic;							-- Clock signal
